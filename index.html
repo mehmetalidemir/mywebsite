@@ -1,211 +1,280 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mehmet Ali Demir</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="Mehmet Ali Demir Portfolio" />
+    <meta
+      name="keywords"
+      content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"
+    />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>Mehmet Ali Demir</title>
-	<meta name="description" content="Mehmet Ali Demir Website" />
-	<meta name="keywords" content="mehmet ali demir,,mehmet ali demir website,mehmet ali demir cv,mehmet ali ml," />
-	<meta name="author" content="hencework" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/animations.css" type="text/css" />
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-	<link rel="shortcut icon" href="img/logo.png">
-	<link rel="icon" href="img/logo.png" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-<body id="body" data-ng-app="contactApp">
+  <body>
+    <!-- Animated Background -->
+    <div
+      class="lm-animated-bg"
+      style="background-image: url(img/main_bg.png)"
+    ></div>
+    <!-- /Animated Background -->
 
-	<div class="preloader-it">
-		<div class="mdl-spinner mdl-js-spinner is-active is-upgraded" data-upgraded=",MaterialSpinner">
-			<div class="mdl-spinner__layer mdl-spinner__layer-1">
-				<div class="mdl-spinner__circle-clipper mdl-spinner__left">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__gap-patch">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__circle-clipper mdl-spinner__right">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-			</div>
-			<div class="mdl-spinner__layer mdl-spinner__layer-2">
-				<div class="mdl-spinner__circle-clipper mdl-spinner__left">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__gap-patch">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__circle-clipper mdl-spinner__right">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-			</div>
-			<div class="mdl-spinner__layer mdl-spinner__layer-3">
-				<div class="mdl-spinner__circle-clipper mdl-spinner__left">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__gap-patch">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__circle-clipper mdl-spinner__right">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-			</div>
-			<div class="mdl-spinner__layer mdl-spinner__layer-4">
-				<div class="mdl-spinner__circle-clipper mdl-spinner__left">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__gap-patch">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-				<div class="mdl-spinner__circle-clipper mdl-spinner__right">
-					<div class="mdl-spinner__circle"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
 
-	<div class="main-wrapper">
+    <div class="page">
+      <div class="page-content">
+        <header id="site_header" class="header mobile-menu-hide">
+          <div class="header-content">
+            <div class="header-photo">
+              <img src="img/main_photo.jpg" alt="Alex Smith" />
+            </div>
+            <div class="header-titles">
+              <h2>Mehmet Ali Demir</h2>
+              <h4>Software Engineering Student</h4>
+            </div>
+          </div>
 
-		<div class="bg-struct bg-abstract-1"></div>
+          <ul class="main-menu">
+            <li class="active">
+              <a href="#home" class="nav-anim">
+                <span class="menu-icon lnr lnr-home"></span>
+                <span class="link-text">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about-me" class="nav-anim">
+                <span class="menu-icon lnr lnr-user"></span>
+                <span class="link-text">About Me</span>
+              </a>
+            </li>
+          </ul>
 
+          <div class="social-links">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/mehmetalidemir"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/mehmetalidemir" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
 
-		<div class="mdl-js-layout mdl-layout--fixed-header">
+          <div class="header-buttons">
+            <a
+              href="mailto:mehmetalidemir99mad@gmail.com"
+              target="_blank"
+              class="btn btn-primary"
+              >Send e-mail</a
+            >
+          </div>
+        </header>
 
+        <!-- Mobile Navigation -->
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- End Mobile Navigation -->
 
+        <!-- Arrows Nav -->
+        <div class="lmpixels-arrows-nav">
+          <div class="lmpixels-arrow-right">
+            <i class="lnr lnr-chevron-right"></i>
+          </div>
+          <div class="lmpixels-arrow-left">
+            <i class="lnr lnr-chevron-left"></i>
+          </div>
+        </div>
+        <!-- End Arrows Nav -->
 
-			<div class="main-content relative">
-				<div class="container">
+        <div class="content-area">
+          <div class="animated-sections">
+            <!-- Home Subpage -->
+            <section data-id="home" class="animated-section start-page">
+              <div class="section-content vcentered">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="title-block">
+                      <h2>Mehmet Ali Demir</h2>
+                      <div class="owl-carousel text-rotation">
+                        <div class="item">
+                          <div class="sp-subtitle">
+                            Software Engineering Student
+                          </div>
+                        </div>
 
+                        <div class="item">
+                          <div class="sp-subtitle">Flutter Developer</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
 
-					<section class="about-sec mt-180 mt-sm-120  mb-30">
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="mdl-card mdl-shadow--2dp">
-									<div class="row">
-										<div class="col-md-5 col-xs-12 mb-30">
-											<div class="candidate-img mb-35"></div>
-											<ul class="social-icons">
-												<li>
-													<a class="linkedin-link" target="_blank"
-														href="https://www.linkedin.com/in/mehmetalidemir">
-														<i id="tt1" class="zmdi zmdi-linkedin"></i>
-														<div class="mdl-tooltip" data-mdl-for="tt1">
-															linkedin
-														</div>
-													</a>
-												</li>
-												<li>
-													<a class="github-link" target="_blank"
-														href="https://github.com/mehmetalidemir">
-														<i id="tt2" class="zmdi zmdi-github"></i>
-														<div class="mdl-tooltip" data-mdl-for="tt2">
-															Github
-														</div>
-													</a>
-												</li>
+            <!-- About Me Subpage -->
+            <section data-id="about-me" class="animated-section">
+              <div class="page-title">
+                <h2>About <span>Me</span></h2>
+              </div>
 
+              <div class="section-content">
+                <!-- Personal Information -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-7">
+                    <p>
+                      I am a 4th year software engineering student at Okan
+                      University. I am interested in mobile development and
+                      design.
+                    </p>
+                  </div>
 
-											</ul>
-										</div>
-										<div class="col-md-7 col-xs-12">
-											<div class="info-wrap">
-												<h1>Mehmet Ali Demir</h1>
-												<h5 class="mt-20 font-grey">Software Engineering Student
-												</h5>
-												<br>
-												<h6>I am a 3rd year software engineering student at Okan University. I
-													am interested in mobile development and design.
-												</h6>
+                  <div class="col-xs-12 col-sm-5">
+                    <div class="info-list">
+                      <ul>
+                        <li>
+                          <span class="title">Age :</span>
+                          <span class="value">22</span>
+                        </li>
 
-											</div>
-											<ul class="profile-wrap mt-40">
-												<li>
-													<div class="profile-desc">
-														<div class="profile-title">Send E-Mail</div>
+                        <li>
+                          <span class="title">Address: </span>
+                          <span class="value">Istanbul</span>
+                        </li>
 
-														<a target="_blank"
-															href="mailto:mehmetalidemir99mad@gmail.com">mehmetalidemir99mad@gmail.com</a>
-													</div>
-												</li>
-												<li>
-													<div class="profile-desc">
-														<div class="profile-title">Social
-															Media</div>
+                        <li>
+                          <span class="title">E-mail :</span>
+                          <span class="value"
+                            >mehmetalidemir99mad@gmail.com</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Personal Information -->
 
-														<a target="_blank" href="https://mehmetali.cf/">mehmetali.cf</a>
-													</div>
-												</li>
+                <div class="white-space-50"></div>
 
-												<li>
-													<div class="profile-desc">
-														<div class="profile-title">Learn to Code</div>
-														<a target="_blank"
-															href="https://www.instagram.com/developer_camp">Developer
-															Camp</a>
-													</div>
-												</li>
+                <!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="block-title">
+                      <h3>What <span>I Do</span></h3>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="col-inner">
+                      <div class="info-list-w-icon">
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Flutter Development</h4>
+                            <p>
+                              I am using flutter for mobile app development. I
+                              do various flutter projects to improve myself.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="col-inner">
+                      <div class="info-list-w-icon">
+                        <div class="info-block-w-icon">
+                          <div class="ci-icon">
+                            <i class="lnr lnr-flag"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Social Media Management</h4>
+                            <p>
+                              It was established to inform people both by
+                              learning software development and by sharing
+                              knowledge.
+                              <a
+                                href="https://www.instagram.com/developer_camp"
+                                target="_blank"
+                                >Click To Go To Site</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Services -->
 
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
+                <div class="white-space-30"></div>
 
-					<footer class="footer-sec sec-pad-top-sm sec-pad-bottom text-center">
-						<h4>thank you for visiting.</h4>
-						<p class="mt-10">Mehmet Ali Demir</p>
-						<ul class="social-icons mt-10">
-							<li>
-								<a class="linkedin-link" target="_blank"
-									href="https://www.linkedin.com/in/mehmetalidemir">
-									<i id="tt1" class="zmdi zmdi-linkedin"></i>
-									<div class="mdl-tooltip" data-mdl-for="tt1">
-										linkedin
-									</div>
-								</a>
-							</li>
-							<li>
-								<a class="github-link" target="_blank"
-									href="https://github.com/mehmetalidemir">
-									<i id="tt2" class="zmdi zmdi-github"></i>
-									<div class="mdl-tooltip" data-mdl-for="tt2">
-										Github
-									</div>
-								</a>
-							</li>
-						</ul>
+                <!-- Testimonials -->
 
-					</footer>
+                <div class="white-space-50"></div>
+              </div>
+            </section>
+            <!-- End of About Me Subpage -->
 
-				</div>
-			</div>
+            <!-- End of Contact Subpage -->
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
 
-		</div>
-	</div>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
+    <script src="js/perfect-scrollbar.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
 
-	<script src="js/jquery-1.12.4.min.js"></script>
-	<script src="js/angular.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/material.min.js"></script>
-	<script src="js/jQuery.appear.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/controllers.js"></script>
-	<script src="js/smooth-scroll.js"></script>
-	<script src="js/isotope.js"></script>
-	<script src="js/lightgallery-all.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/froogaloop2.min.js"></script>
-	<script src="js/jquery.slimscroll.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxXt2P7-U38bK0xEFIT-ebZJ1ngK8wjww"></script>
-	<script src="js/init.js"></script>
-</body>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
